@@ -1,0 +1,9 @@
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Debug\netstandard2.0\BookEntities.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Debug\netstandard2.0\BookEntities.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Debug\netstandard2.0\BookEntities.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Debug\netstandard2.0\BookEntities.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\bin\Debug\netstandard2.0\BookEntities.deps.json
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\bin\Debug\netstandard2.0\BookEntities.dll
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\bin\Debug\netstandard2.0\BookEntities.pdb
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Debug\netstandard2.0\BookEntities.dll
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Debug\netstandard2.0\BookEntities.pdb

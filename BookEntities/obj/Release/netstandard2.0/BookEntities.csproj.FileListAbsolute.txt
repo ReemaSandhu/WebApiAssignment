@@ -1,0 +1,3 @@
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Release\netstandard2.0\BookEntities.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Release\netstandard2.0\BookEntities.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\DigitalBookStore\BookEntities\obj\Release\netstandard2.0\BookEntities.csproj.CoreCompileInputs.cache
