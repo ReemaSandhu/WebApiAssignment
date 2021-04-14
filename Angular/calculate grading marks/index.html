@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+        <title>
+            My Own Calcy.
+        </title>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+            <div class="group1">
+                <p>Student Grade<span>Calcy</span></p>
+            </div>
+            <div class="group2">
+                <div class="mini-group">
+            <div class="group">
+                <input type="text" class="control" placeholder="Linux" id="linux">
+            </div>
+            <div class="group">
+                <input type="text" class="control" placeholder="Cga" id="cga">
+            </div>
+            <div class="group">
+                <input type="text" class="control" placeholder="Expert System" id="expert">
+            </div>
+            <div class="group">
+                <input type="text" class="control" placeholder="Oose" id="oose">
+            </div>
+            <div class="group">
+                <input type="button" name="" value="ShowPercentage" class="btn" onclick="calcy()">
+            </div>
+            <div>
+                <div class="show_data data">
+                    <p id="showData"></p>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <script>
+            const calcy=()=>{
+                let linux=document.getElementById('linux').value;
+                let cga=document.getElementById('cga').value;
+                let expert=document.getElementById('expert').value;
+                let oose=document.getElementById('oose').value;
+                let grade="";
+                let total=parseFloat(linux)+parseFloat(cga)+parseFloat(expert)+parseFloat(oose);
+                let per=(total/400)*100;
+                if(per<=100 && per>=80)
+                {
+                    grade='A';
+                }
+                else if(per<=79 && per>=60)
+                {
+                    grade='B';
+                }
+                else if(per<=59 && per>=40)
+                {
+                    grade='C';
+                }
+                else
+                {
+                    grade='D';
+                }
+                if(per>=39.5)
+                {
+                    document.getElementById('showData').innerHTML=`Out of 400, Total: ${total}  Percentage: ${per}%  Grade: ${grade}. (PASS)`
+                }
+                else{
+                    document.getElementById('showData').innerHTML=`Out of 400, Total: ${total}  Percentage: ${per}%  Grade: ${grade}.  (FAIL)`
+                }
+            }
+        </script>
+    </body>
+</html>
